@@ -1,4 +1,59 @@
-* {
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    background-color:#F0EEEE;
+    font-family: 'Roboto Slab', monospace !important;
+}
+
+#wrapper {
+    width:1400px;
+    margin: 25px auto;
+    height:52px;
+}
+
+#searchbar {
+    display:inline-block;
+}
+
+.searchText {
+    float:left;
+    width: 1000px;
+    font-size:20px;
+    border: none;
+    margin-left: 20px;
+    padding:14px;
+}
+
+#searchButton {
+    float:left;
+    display:inline-block;
+    background-color: #5ACB5F;
+    padding: 5px 20px;
+}
+
+#redo {
+    float:left;
+    display:inline-block;
+    background-color:#FB5D5D;
+    padding: 5px 20px;
+}
+
+#list {
+    float:right;
+    height: 53px;
+    width: 70px;
+    background-color:#9D9A9A ;
+    color:white;
+    font-weight: 600;
+    font-size: 24px; 
+    text-align:center;
+    line-height: 53px;
+}
+
+#cards {
+    width:1400px;
+    margin: 0 auto;
+    margin-top:50px;
+    background-color: white;
 }
